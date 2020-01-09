@@ -40,10 +40,19 @@
                     android:scaleType="fitXY"
                 ></ImageView>
 
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                >
+
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="0.7"
+                    android:layout_weight="1"
                     android:orientation="vertical"
                     android:layout_marginTop="5dp"
                    >
@@ -72,18 +81,29 @@
                         android:onClick="moovToPage"
                         android:text="@string/am_buttontext"
                         android:textSize="@dimen/am_bottonSiz"></Button>
+                    </LinearLayout>
+
+
                 </LinearLayout>
         </LinearLayout>
 
 
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:text="@string/am_abut_text"
-            android:textSize="16sp"
-            ></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2"
+                    android:text="@string/am_abut_Bolttext"
+                    android:textSize="@dimen/am_text_siz_boltInformasen"
+                    android:textStyle="bold"
+                    ></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/am_abut_text"
+                    android:textSize="16sp"
+                    ></TextView>
 
     </LinearLayout>
 
