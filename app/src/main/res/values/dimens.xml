@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="am_textsiz_titel">25dp</dimen>
+    <dimen name="am_textsiz_Date">19sp</dimen>
+    <dimen name="am_bottonSiz">16dp</dimen>
+</resources>

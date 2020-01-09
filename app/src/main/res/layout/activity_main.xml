@@ -54,14 +54,14 @@
                         android:text="@string/am_insidtext_1"
                         android:textColor="#ff1aff"
                         android:textStyle="bold"
-                        android:textSize="25dp"
+                        android:textSize="@dimen/am_textsiz_titel"
                         android:layout_margin="6dp"></TextView>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/am_dateOfCreat"
-                        android:textSize="19sp"
+                        android:textSize="@dimen/am_textsiz_Date"
                         android:layout_margin="6dp">
                     </TextView>
 
@@ -71,7 +71,7 @@
                         android:layout_margin="6dp"
                         android:onClick="moovToPage"
                         android:text="@string/am_buttontext"
-                        android:textSize="16dp"></Button>
+                        android:textSize="@dimen/am_bottonSiz"></Button>
                 </LinearLayout>
         </LinearLayout>
 
